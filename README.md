@@ -2,6 +2,9 @@
 # Netology DevOps homeworks
 
 # Terraform gitignore description
+
+
+
 # Далее в формате
 #
 # Строка # - содержимое строки 
