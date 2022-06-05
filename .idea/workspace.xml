@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0adf1345-e1f5-48d2-bdfe-7c3a7e3869e6" name="Changes" comment="Added gitignore">
-      <change afterPath="$PROJECT_DIR$/will_be_deleted.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/will_be_moved.txt" afterDir="false" />
+    <list default="true" id="0adf1345-e1f5-48d2-bdfe-7c3a7e3869e6" name="Changes" comment="Prepare to delete and move">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/will_be_moved.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654425814608</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Prepare to delete and move">
+      <created>1654426454641</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1654426454641</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -99,6 +105,7 @@
     <MESSAGE value="test 7" />
     <MESSAGE value="test 10" />
     <MESSAGE value="Added gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added gitignore" />
+    <MESSAGE value="Prepare to delete and move" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prepare to delete and move" />
   </component>
 </project>
