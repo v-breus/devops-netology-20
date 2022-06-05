@@ -36,4 +36,5 @@ terraform.rc
 # Personal addon
 # add "ignored_dir" folder to ignorelist but exclude all bash-scripts inside
 ignored_dir/
+**/ignored_dir/
 !ignored_dir/*.sh
