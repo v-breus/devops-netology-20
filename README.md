@@ -1,8 +1,5 @@
 # devops-netology-20
-#Netology DevOps homeworks
-
-edit 1
-edit 2
+# Netology DevOps homeworks
 
 # Terraform gitignore description
 # Далее в формате
