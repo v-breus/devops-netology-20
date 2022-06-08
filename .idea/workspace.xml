@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0adf1345-e1f5-48d2-bdfe-7c3a7e3869e6" name="Changes" comment="Added gitignore">
-      <change afterPath="$PROJECT_DIR$/will_be_deleted.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/will_be_moved.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
