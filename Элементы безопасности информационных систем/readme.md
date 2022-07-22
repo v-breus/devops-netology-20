@@ -1,5 +1,5 @@
 <ol>
-<li class="has-line-data" data-line-start="0" data-line-end="1">Установите Bitwarden плагин для браузера. Зарегестрируйтесь и сохраните несколько паролей. - готово, см. рис.1</li>
+<li class="has-line-data" data-line-start="0" data-line-end="1">Установите Bitwarden плагин для браузера. Зарегестрируйтесь и сохраните несколько паролей. - готово !(рис.1.png)</li>
 </ol>
 <ol start="2">
 <li class="has-line-data" data-line-start="4" data-line-end="5">Установите Google authenticator на мобильный телефон. Настройте вход в Bitwarden акаунт через Google authenticator OTP. - готово, см. рис.2</li>
