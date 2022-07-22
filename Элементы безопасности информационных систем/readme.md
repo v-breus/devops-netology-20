@@ -1,8 +1,8 @@
 <ol>
-<li class="has-line-data" data-line-start="0" data-line-end="1">Установите Bitwarden плагин для браузера. Зарегистрируйтесь и сохраните несколько паролей. - готово [<img src="https://github.com/v-breus/devops-netology-20/blob/main/%D0%AD%D0%BB%D0%B5%D0%BC%D0%B5%D0%BD%D1%82%D1%8B%20%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D0%B8%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D1%85%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC/%D1%80%D0%B8%D1%81.1.png">]</li>
+<li class="has-line-data" data-line-start="0" data-line-end="1">Установите Bitwarden плагин для браузера. Зарегистрируйтесь и сохраните несколько паролей. - готово <img src="рис.1.png"></li>
 </ol>
 <ol start="2">
-<li class="has-line-data" data-line-start="4" data-line-end="5">Установите Google authenticator на мобильный телефон. Настройте вход в Bitwarden акаунт через Google authenticator OTP. - готово, см. рис.2</li>
+<li class="has-line-data" data-line-start="4" data-line-end="5">Установите Google authenticator на мобильный телефон. Настройте вход в Bitwarden акаунт через Google authenticator OTP. - готово, <img src="рис.2.png"></li>
 </ol>
 <ol start="3">
 <li class="has-line-data" data-line-start="8" data-line-end="38">
@@ -41,15 +41,15 @@ ln -s /etc/apache2/sites-available/devops20.breus.ssl.conf /etc/apache2/sites-en
 f) apt install -y openssl<br>
 openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /var/www/certs/devops20.breus/privkey.pem -out /var/www/certs/devops20.breus/cert.pem # генерирую сертификат</p>
 <p class="has-line-data" data-line-start="43" data-line-end="44">g) echo “&lt;h1&gt;Homework site&lt;/h1&gt;” &gt; /var/www/sites/devops20.breus/index.php &amp;&amp; service apache2 restart # создаю индексный файл и перезапускаю веб-сервер</p>
-<p class="has-line-data" data-line-start="45" data-line-end="46">После добавления записи в локальный hosts браузер открывает созданный сайт - рис.3</p>
+<p class="has-line-data" data-line-start="45" data-line-end="46">После добавления записи в локальный hosts браузер открывает созданный сайт <img src="рис.3.png"></p>
 <ol start="4">
 <li class="has-line-data" data-line-start="49" data-line-end="51">а) git clone --depth 1 <a href="https://github.com/drwetter/testssl.sh.git">https://github.com/drwetter/testssl.sh.git</a> # скачиваю скрипт для тестирования<br>
-b) ./testssl.sh -U --sneaky <a href="https://yandex.ru">https://yandex.ru</a> # проверяю сайт на наличие уязвимостей. Результат на рис.4</li>
+b) ./testssl.sh -U --sneaky <a href="https://yandex.ru">https://yandex.ru</a> # проверяю сайт на наличие уязвимостей. Результат на рис.4 <img src="рис.4.png"></li>
 </ol>
 <ol start="5">
 <li class="has-line-data" data-line-start="53" data-line-end="56">ssh-keygen # генерирую ключи<br>
 ssh-copy-id USER@IP # копирую их на другой сервер<br>
-ssh USER@IP # захожу по ключу. Результат на рис. 5</li>
+ssh USER@IP # захожу по ключу. Результат на рис. 5<img src="рис.5.png"></li>
 </ol>
 <ol start="6">
 <li class="has-line-data" data-line-start="58" data-line-end="67">mv /home/vagrant/.ssh/id_rsa /home/vagrant/.ssh/renamed.key # переименовываю ключ<br>
@@ -60,9 +60,9 @@ HostName 192.168.42.213<br>
 IdentityFile /home/vagrant/.ssh/renamed.key<br>
 User vagrant<br>
 EOF # сопоставляю имя с IP-адресом, добавляя эти строки в конфиг /etc/ssh/ssh_config<br>
-ssh centos # логинюсь, результат на рис. 6</li>
+ssh centos # логинюсь, результат на рис. 6<img src="рис.6.png"></li>
 </ol>
 <ol start="7">
 <li class="has-line-data" data-line-start="69" data-line-end="71">tcpdump -i eth1 -c 100 -w /home/vagrant/log.pcap # собрал лог<br>
-tshark -r /home/vagrant/log.pcap # прочитал его, см. рис.7</li>
+tshark -r /home/vagrant/log.pcap # прочитал его, см. рис.7<img src="рис.7.png"></li>
 </ol>
