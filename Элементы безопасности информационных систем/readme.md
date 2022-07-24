@@ -9,7 +9,7 @@
 
 #### Установите apache2, сгенерируйте самоподписанный сертификат, настройте тестовый сайт для работы по HTTPS
 ```source-shell
-apt install php -y                                                                      # ставлю веб-сервер
+apt install php -y                                                        # ставлю веб-сервер
 a2enmod ssl                                                               # включаю SSL
 mkdir -p /var/logs
 mkdir -p /var/www/sites/devops20.breus
@@ -37,18 +37,16 @@ SSLCertificateFile /var/www/certs/devops20.breus/cert.pem
 SSLCertificateKeyFile /var/www/certs/devops20.breus/privkey.pem
 </VirtualHost>
 </IfModule>
-EOF
-                                                                          # создаю конфиги
+EOF                                                                        # создаю конфиги
                                                                           
 ln -s /etc/apache2/sites-available/devops20.breus.conf /etc/apache2/sites-enabled/devops20.breus.conf
-ln -s /etc/apache2/sites-available/devops20.breus.ssl.conf /etc/apache2/sites-enabled/devops20.breus.ssl.conf 
-                                                                          # и симлинки на них
+ln -s /etc/apache2/sites-available/devops20.breus.ssl.conf /etc/apache2/sites-enabled/devops20.breus.ssl.conf # и симлинки на них
 
 apt install -y openssl
 openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /var/www/certs/devops20.breus/privkey.pem -out /var/www/certs/devops20.breus/cert.pem 
                                                                           # генерирую сертификат
-echo “<h1>Homework site</h1>” > /var/www/sites/devops20.breus/index.php && service apache2 restart 
-                                                                          # создаю индексный файл и перезапускаю веб-сервер
+echo “<h1>Homework site</h1>” > /var/www/sites/devops20.breus/index.php
+service apache2 restart                                                   # создаю индексный файл и перезапускаю веб-сервер
 ```
 После добавления записи в локальный hosts браузер открывает созданный сайт
 <p><img src="img\рис.3.png">
