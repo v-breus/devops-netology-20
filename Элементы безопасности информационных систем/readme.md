@@ -50,15 +50,15 @@ echo “<h1>Homework site</h1>” > /var/www/sites/devops20.breus/index.php && s
 
 #### Проверьте на TLS уязвимости произвольный сайт в интернете
 ```source-shell
-git clone --depth 1 <a href="https://github.com/drwetter/testssl.sh.git">https://github.com/drwetter/testssl.sh.git</a> # скачиваю скрипт для тестирования
-./testssl.sh -U --sneaky <a href="https://yandex.ru">https://yandex.ru</a> # проверяю сайт на наличие уязвимостей.
+git clone --depth 1 https://github.com/drwetter/testssl.sh.git # скачиваю скрипт для тестирования
+cd testssl.sh && ./testssl.sh -U --sneaky https://yandex.ru # проверяю сайт на наличие уязвимостей.
 ```
 Результат на рис.4
 <p><img src="img\рис.4.png">
 
 #### Установите на Ubuntu ssh сервер, сгенерируйте новый приватный ключ. Скопируйте свой публичный ключ на другой сервер. Подключитесь к серверу по SSH-ключу
 ```source-shell
-ssh-keygen # генерирую ключи<br>
+ssh-keygen # генерирую ключи
 ssh-copy-id USER@IP # копирую их на другой сервер
 ssh USER@IP # захожу по ключу
 ```
@@ -69,7 +69,7 @@ ssh USER@IP # захожу по ключу
 ```source-shell
 mv /home/vagrant/.ssh/id_rsa /home/vagrant/.ssh/renamed.key # переименовываю ключ
 sudo -s
-cat &lt;&lt; EOF &gt; /etc/ssh/ssh_config
+cat << EOF > /etc/ssh/ssh_config
 Host centos
 HostName 192.168.42.213
 IdentityFile /home/vagrant/.ssh/renamed.key
@@ -87,4 +87,3 @@ tshark -r /home/vagrant/log.pcap # прочитал его
  ```
 Результат - рис.7
 <p><img src="img\рис.7.png">
-
