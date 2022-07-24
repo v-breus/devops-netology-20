@@ -1,11 +1,11 @@
 #### Установите Bitwarden плагин для браузера. Зарегистрируйтесь и сохраните несколько паролей.
 Готово
-<img src="img\рис.1.png">
+<p><img src="img\рис.1.png">
 
 #### Установите Google authenticator на мобильный телефон. Настройте вход в Bitwarden аккаунт через Google authenticator OTP
 
 Готово 
-<img src="img\рис.2.png">
+<p>img src="img\рис.2.png">
 
 #### Установите apache2, сгенерируйте самоподписанный сертификат, настройте тестовый сайт для работы по HTTPS
 ```source-shell
@@ -45,7 +45,7 @@ openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /var/www/certs/devop
 echo “<h1>Homework site</h1>” > /var/www/sites/devops20.breus/index.php && service apache2 restart # создаю индексный файл и перезапускаю веб-сервер
 ```
 После добавления записи в локальный hosts браузер открывает созданный сайт
-<img src="img\рис.3.png">
+<p><img src="img\рис.3.png">
 
 
 #### Проверьте на TLS уязвимости произвольный сайт в интернете
@@ -54,7 +54,7 @@ git clone --depth 1 <a href="https://github.com/drwetter/testssl.sh.git">https:/
 ./testssl.sh -U --sneaky <a href="https://yandex.ru">https://yandex.ru</a> # проверяю сайт на наличие уязвимостей.
 ```
 Результат на рис.4
-<img src="img\рис.4.png">
+<p><img src="img\рис.4.png">
 
 #### Установите на Ubuntu ssh сервер, сгенерируйте новый приватный ключ. Скопируйте свой публичный ключ на другой сервер. Подключитесь к серверу по SSH-ключу
 ```source-shell
@@ -63,7 +63,7 @@ ssh-copy-id USER@IP # копирую их на другой сервер
 ssh USER@IP # захожу по ключу
 ```
 Результат на рис. 5
-<img src="img\рис.5.png">
+<p><img src="img\рис.5.png">
 
 #### Переименуйте файлы ключей из задания 5. Настройте файл конфигурации SSH клиента, так чтобы вход на удаленный сервер осуществлялся по имени сервера
 ```source-shell
@@ -77,12 +77,14 @@ User vagrant
 EOF # сопоставляю имя с IP-адресом, добавляя эти строки в конфиг /etc/ssh/ssh_config
 ssh centos # логинюсь
 ```
-Результат на рис. 6<img src="img\рис.6.png">
+Результат на рис. 6
+<p><img src="img\рис.6.png">
 
 #### Соберите дамп трафика утилитой tcpdump в формате pcap, 100 пакетов. Откройте файл pcap в Wireshark
 ```source-shell
 tcpdump -i eth1 -c 100 -w /home/vagrant/log.pcap # собрал лог
 tshark -r /home/vagrant/log.pcap # прочитал его
  ```
-Результат - рис.7<img src="img\рис.7.png">
+Результат - рис.7
+<p><img src="img\рис.7.png">
 
