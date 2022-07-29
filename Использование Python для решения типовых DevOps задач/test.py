@@ -3,9 +3,9 @@
 import os
 
 bash_command = ["cd /vagrant/devops-netology-20/Использование\ Python\ для\ решения\ типовых\ DevOps\ задач/", "git status"]
-result_os = os.popen(' && '.join(bash_command)).read()
+result = os.popen(' && '.join(bash_command)).read()
 #is_change = False  # Лишняя проверка
-for result in result_os.split('\n'):
+for result in result.split('\n'):
     if result.find('modified') != -1:
         prepare_result = result.replace('\tmodified:   ', '')
         print(prepare_result)
