@@ -2,7 +2,7 @@
 
 import os
 
-bash_command = ["cd /vagrant/devops-netology-20/Использование\ Python\ для\ решения\ типовых\ DevOps\ задач/", "git status"]
+bash_command = ["cd /vagrant/devops-netology-20/Использование_Python_для_решения_типовых_DevOps_задач", "git status"]
 result = os.popen(' && '.join(bash_command)).read()
 #is_change = False  # Лишняя проверка
 for result in result.split('\n'):
