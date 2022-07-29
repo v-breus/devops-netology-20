@@ -83,7 +83,15 @@ for result in result.split('\n'):
 
 ### Вывод скрипта при запуске при тестировании:
 ```
-???
+root@test1:/vagrant/devops-netology-20/Использование_Python_для_решения_типовых_DevOps_задач# echo "message 4" >> test.file
+root@test1:/vagrant/devops-netology-20/Использование_Python_для_решения_типовых_DevOps_задач# ./test.py /vagrant/devops-netology-20/
+test.file
+root@test1:/vagrant/devops-netology-20/Использование_Python_для_решения_типовых_DevOps_задач#
+root@test1:/vagrant/devops-netology-20/Использование_Python_для_решения_типовых_DevOps_задач#
+root@test1:/vagrant/devops-netology-20/Использование_Python_для_решения_типовых_DevOps_задач# ./test3.py /vagrant/empty_dir/
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
 ```
 
 ## Обязательная задача 4
