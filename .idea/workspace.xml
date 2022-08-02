@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0adf1345-e1f5-48d2-bdfe-7c3a7e3869e6" name="Changes" comment="Prepare to delete and move" />
+    <list default="true" id="0adf1345-e1f5-48d2-bdfe-7c3a7e3869e6" name="Changes" comment="Prepare to delete and move">
+      <change beforePath="$PROJECT_DIR$/Языки_разметки_JSON_и_YAML/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Языки_разметки_JSON_и_YAML/readme.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Merge.Settings">
     <option name="BRANCH" value="origin/tmp" />
@@ -59,7 +68,28 @@
     ]
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.scrypt1">
+    <configuration name="scrypt1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="devops-netology-20" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Языки_разметки_JSON_и_YAML" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Языки_разметки_JSON_и_YAML/scrypt1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="devops-netology-20" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -83,6 +113,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.scrypt1" />
         <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
@@ -271,7 +302,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659119941838</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="step2">
+      <created>1659452023450</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1659452023450</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -311,6 +349,7 @@
     <MESSAGE value="18" />
     <MESSAGE value="task 3" />
     <MESSAGE value="task 3 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="task 3 done" />
+    <MESSAGE value="step2" />
+    <option name="LAST_COMMIT_MESSAGE" value="step2" />
   </component>
 </project>
