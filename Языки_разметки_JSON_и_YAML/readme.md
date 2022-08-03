@@ -58,7 +58,7 @@ print('НАЧИНАЕМ ПРОВЕРКУ ХОСТОВ ')
 print('')                                                                                       # Пустые строки для улучшения читабельности
 
 
-while 1==1:
+while True:
   for host in check:
     originalip: str = check[host]
     ip = socket.gethostbyname(host)
