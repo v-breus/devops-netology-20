@@ -60,7 +60,6 @@ print('')                                                                       
 
 while True:
   for host in check:
-    originalip: str = check[host]
     ip = socket.gethostbyname(host)
     if ip != check[host]:
       if step==1 and init !=1:
