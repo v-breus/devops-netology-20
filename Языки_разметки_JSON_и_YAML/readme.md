@@ -74,7 +74,6 @@ while True:
           yaml_data = yaml.dump([{host:ip}])
           yamlfile.write(yaml_data)
           print(str(yaml_data))
-      check[host]=ip
 # счетчик попыток, чтобы скрипт не зацикливался
   step+=1
   if step >= 10:
