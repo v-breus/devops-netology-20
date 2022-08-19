@@ -9,3 +9,6 @@ ___________________________________________________________________
 [Использование Python для решения типовых DevOps задач](https://github.com/v-breus/devops-netology-20/tree/main/Использование_Python_для_решения_типовых_DevOps_задач)
 
 [Языки разметки JSON и YAML](https://github.com/v-breus/devops-netology-20/tree/main/Языки_разметки_JSON_и_YAML)
+
+[Введение в виртуализацию, типы и функции гипервизоров, обзор рынка вендоров и областей применения](https://github.com/v-breus/devops-netology-20/tree/main/Введение_в_виртуализацию)
+
