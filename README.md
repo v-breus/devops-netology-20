@@ -15,3 +15,5 @@ ___________________________________________________________________
 [Применение принципов IaaC в работе с виртуальными машинами](https://github.com/v-breus/devops-netology-20/tree/main/Применение_принципов_IaaC_в_работе_с_виртуальными_машинами)
 
 [Введение. Экосистема. Архитектура. Жизненный цикл Docker контейнера](https://github.com/v-breus/devops-netology-20/tree/main/Жизненный_цикл_Docker_контейнера)
+
+[Оркестрация группой Docker контейнеров на примере Docker Compose](https://github.com/v-breus/devops-netology-20/tree/main/Оркестрация_группой_Docker_контейнеров_на_примере_Docker_Compose)
