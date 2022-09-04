@@ -77,7 +77,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TF_FMT": "false",
-    "last_opened_file_path": "D:/VMs/_vagrant/devops-ubuntu/devops-netology-20/Жизненный_цикл_Docker_контейнера",
+    "last_opened_file_path": "D:/VMs/_vagrant/devops-ubuntu/devops-netology-20/Оркестрация_группой_Docker_контейнеров_на_примере_Docker_Compose",
     "settings.editor.selected.configurable": "terminal"
   },
   "keyToStringList": {
@@ -90,6 +90,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\VMs\_vagrant\devops-ubuntu\devops-netology-20\Оркестрация_группой_Docker_контейнеров_на_примере_Docker_Compose" />
       <recent name="D:\VMs\_vagrant\devops-ubuntu\devops-netology-20\Жизненный_цикл_Docker_контейнера" />
       <recent name="D:\VMs\_vagrant\ubuntu\devops-netology-20\Применение_принципов_IaaC_в_работе_с_виртуальными_машинами" />
       <recent name="D:\VMs\_vagrant\ubuntu\devops-netology-20\Введение_в_виртуализацию" />
@@ -391,7 +392,21 @@
       <option name="project" value="LOCAL" />
       <updated>1661976035020</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Readme edit">
+      <created>1661976256247</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1661976256247</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Add src">
+      <created>1661976455899</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1661976455899</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -438,6 +453,8 @@
     <MESSAGE value="format" />
     <MESSAGE value="5.2 Применение принципов IaaC в работе с виртуальными машинами" />
     <MESSAGE value="5.3 Введение. Экосистема. Архитектура. Жизненный цикл Docker контейнера" />
-    <option name="LAST_COMMIT_MESSAGE" value="5.3 Введение. Экосистема. Архитектура. Жизненный цикл Docker контейнера" />
+    <MESSAGE value="Readme edit" />
+    <MESSAGE value="Add src" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add src" />
   </component>
 </project>
