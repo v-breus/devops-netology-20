@@ -17,3 +17,5 @@ ___________________________________________________________________
 [Введение. Экосистема. Архитектура. Жизненный цикл Docker контейнера](https://github.com/v-breus/devops-netology-20/tree/main/Жизненный_цикл_Docker_контейнера)
 
 [Оркестрация группой Docker контейнеров на примере Docker Compose](https://github.com/v-breus/devops-netology-20/tree/main/Оркестрация_группой_Docker_контейнеров_на_примере_Docker_Compose)
+
+[Оркестрация кластером Docker контейнеров на примере Docker Swarm](https://github.com/v-breus/devops-netology-20/tree/main/Оркестрация_кластером_Docker_контейнеров_на_примере_Docker_Swarm)
