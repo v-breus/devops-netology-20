@@ -31,9 +31,9 @@
 
 **Ответ:**
 
-CA или PC/EL
-PA или PA/EL
-PC или PA/EC
+* CA или PC/EL
+* PA или PA/EL
+* PC или PA/EC
 
 #### Задание 3
 
