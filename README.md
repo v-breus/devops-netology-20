@@ -21,3 +21,5 @@ ___________________________________________________________________
 [Оркестрация кластером Docker контейнеров на примере Docker Swarm](https://github.com/v-breus/devops-netology-20/tree/main/Оркестрация_кластером_Docker_контейнеров_на_примере_Docker_Swarm)
 
 [Типы и структура СУБД](https://github.com/v-breus/devops-netology-20/tree/main/Типы_и_структура_СУБД)
+
+[6.2 SQL](https://github.com/v-breus/devops-netology-20/tree/main/SQL)
