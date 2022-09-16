@@ -479,7 +479,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662881124847</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="доработка 1">
+      <created>1663334185175</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1663334185175</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -507,7 +514,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="test 6" />
     <MESSAGE value="test 7" />
     <MESSAGE value="test 10" />
     <MESSAGE value="Added gitignore" />
@@ -532,6 +538,7 @@
     <MESSAGE value="Homework 5.4" />
     <MESSAGE value="Homework 5.5" />
     <MESSAGE value="Homework 6.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework 6.1" />
+    <MESSAGE value="доработка 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="доработка 1" />
   </component>
 </project>
