@@ -79,7 +79,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TF_FMT": "false",
-    "last_opened_file_path": "D:/VMs/_vagrant/devops-ubuntu/devops-netology-20/SQL",
+    "last_opened_file_path": "D:/VMs/_vagrant/devops-ubuntu/devops-netology-20/MySQL",
     "settings.editor.selected.configurable": "terminal"
   },
   "keyToStringList": {
@@ -92,11 +92,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\VMs\_vagrant\devops-ubuntu\devops-netology-20\MySQL" />
       <recent name="D:\VMs\_vagrant\devops-ubuntu\devops-netology-20\SQL" />
       <recent name="D:\VMs\_vagrant\devops-ubuntu\devops-netology-20\Типы_и_структура_СУБД" />
       <recent name="D:\VMs\_vagrant\devops-ubuntu\devops-netology-20\Оркестрация_кластером_Docker_контейнеров_на_примере_Docker_Swarm" />
       <recent name="D:\VMs\_vagrant\devops-ubuntu\devops-netology-20\Оркестрация_группой_Docker_контейнеров_на_примере_Docker_Compose" />
-      <recent name="D:\VMs\_vagrant\devops-ubuntu\devops-netology-20\Жизненный_цикл_Docker_контейнера" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\VMs\_vagrant\devops-ubuntu\devops-netology-20\Жизненный_цикл_Docker_контейнера\img" />
@@ -493,7 +493,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663334609902</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="6.2. SQL">
+      <created>1663359590271</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1663359590271</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -521,7 +528,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="test 7" />
     <MESSAGE value="test 10" />
     <MESSAGE value="Added gitignore" />
     <MESSAGE value="Prepare to delete and move" />
@@ -546,6 +552,7 @@
     <MESSAGE value="Homework 5.5" />
     <MESSAGE value="Homework 6.1" />
     <MESSAGE value="доработка 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="доработка 1" />
+    <MESSAGE value="6.2. SQL" />
+    <option name="LAST_COMMIT_MESSAGE" value="6.2. SQL" />
   </component>
 </project>
