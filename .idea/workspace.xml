@@ -40,7 +40,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RESET_MODE" value="HARD" />
+    <option name="RESET_MODE" value="SOFT" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitRewordedCommitMessages">
@@ -163,13 +163,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654411498490</updated>
-    </task>
-    <task id="LOCAL-00007" summary="1">
-      <created>1659087511073</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1659087511073</updated>
     </task>
     <task id="LOCAL-00008" summary="12">
       <created>1659092841850</created>
@@ -507,7 +500,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663581750301</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="SQL - Доработка 1">
+      <created>1663585519163</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1663585519163</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -535,7 +535,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Prepare to delete and move" />
     <MESSAGE value="1" />
     <MESSAGE value="12" />
     <MESSAGE value="task 2" />
@@ -560,6 +559,7 @@
     <MESSAGE value="6.2. SQL" />
     <MESSAGE value="6.3. MYSQL" />
     <MESSAGE value="Доработка 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Доработка 1" />
+    <MESSAGE value="SQL - Доработка 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="SQL - Доработка 1" />
   </component>
 </project>
