@@ -164,34 +164,6 @@
       <option name="presentableId" value="Default" />
       <updated>1654411498490</updated>
     </task>
-    <task id="LOCAL-00003" summary="test 7">
-      <created>1654422951116</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1654422951116</updated>
-    </task>
-    <task id="LOCAL-00004" summary="test 10">
-      <created>1654424631640</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1654424631640</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Added gitignore">
-      <created>1654425814608</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1654425814608</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Prepare to delete and move">
-      <created>1654426454641</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1654426454641</updated>
-    </task>
     <task id="LOCAL-00007" summary="1">
       <created>1659087511073</created>
       <option name="number" value="00007" />
@@ -507,7 +479,35 @@
       <option name="project" value="LOCAL" />
       <updated>1663581404927</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Доработка 1">
+      <created>1663581496732</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1663581496732</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Доработка 1">
+      <created>1663581615166</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1663581615166</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Доработка 1">
+      <created>1663581726096</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1663581726096</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Доработка 1">
+      <created>1663581750301</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1663581750301</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
