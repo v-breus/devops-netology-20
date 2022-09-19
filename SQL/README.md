@@ -186,7 +186,7 @@ CREATE INDEX ON clients(orders);
 ```
 Тогда обработка потребует сканирования уже только 5 строк (показано стрелкой)
 
-<img src="img\pic6.jpeg">
+<img src="img\pic6.jpg">
 
 
 #### Задание 6
