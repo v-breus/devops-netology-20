@@ -71,32 +71,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TF_FMT&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/VMs/_vagrant/devops-ubuntu/devops-netology-20/MySQL&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TF_FMT": "false",
+    "last_opened_file_path": "D:/VMs/_vagrant/devops-ubuntu/devops-netology-20/PostgreSQL",
+    "settings.editor.selected.configurable": "terminal"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;,
-      &quot;module&quot;,
-      &quot;repository&quot;
+  "keyToStringList": {
+    "GitStage.ChangesTree.GroupingKeys": [
+      "directory",
+      "module",
+      "repository"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\VMs\_vagrant\devops-ubuntu\devops-netology-20\PostgreSQL" />
       <recent name="D:\VMs\_vagrant\devops-ubuntu\devops-netology-20\MySQL" />
       <recent name="D:\VMs\_vagrant\devops-ubuntu\devops-netology-20\SQL" />
       <recent name="D:\VMs\_vagrant\devops-ubuntu\devops-netology-20\Типы_и_структура_СУБД" />
       <recent name="D:\VMs\_vagrant\devops-ubuntu\devops-netology-20\Оркестрация_кластером_Docker_контейнеров_на_примере_Docker_Swarm" />
-      <recent name="D:\VMs\_vagrant\devops-ubuntu\devops-netology-20\Оркестрация_группой_Docker_контейнеров_на_примере_Docker_Compose" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\VMs\_vagrant\devops-ubuntu\devops-netology-20\Жизненный_цикл_Docker_контейнера\img" />
@@ -163,13 +163,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654411498490</updated>
-    </task>
-    <task id="LOCAL-00008" summary="12">
-      <created>1659092841850</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1659092841850</updated>
     </task>
     <task id="LOCAL-00009" summary="task 2">
       <created>1659095485414</created>
@@ -507,7 +500,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663585519163</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="SQL - Доработка 2">
+      <created>1663606128374</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1663606128374</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -535,7 +535,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="1" />
     <MESSAGE value="12" />
     <MESSAGE value="task 2" />
     <MESSAGE value="16" />
@@ -560,6 +559,7 @@
     <MESSAGE value="6.3. MYSQL" />
     <MESSAGE value="Доработка 1" />
     <MESSAGE value="SQL - Доработка 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="SQL - Доработка 1" />
+    <MESSAGE value="SQL - Доработка 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="SQL - Доработка 2" />
   </component>
 </project>

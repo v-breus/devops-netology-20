@@ -23,3 +23,5 @@ ___________________________________________________________________
 [Типы и структура СУБД](https://github.com/v-breus/devops-netology-20/tree/main/Типы_и_структура_СУБД)
 
 [6.2 SQL](https://github.com/v-breus/devops-netology-20/tree/main/SQL)
+
+[6.3 PostgreSQL](https://github.com/v-breus/devops-netology-20/tree/main/PostgreSQL)
