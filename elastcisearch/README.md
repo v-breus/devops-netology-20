@@ -171,7 +171,7 @@ curl -XGET localhost:9200/_cluster/health/?pretty=true
 * Статус индексов:
 
 ```
-http://localhost:9200/_cluster/health/ind-1?pretty' # в браузере
+http://<SERVER_IP>:9200/_cluster/health/ind-1?pretty' # в браузере
 curl -X GET 'http://localhost:9200/_cluster/health/ind-2?pretty'
 curl -X GET 'http://localhost:9200/_cluster/health/ind-3?pretty'
 
