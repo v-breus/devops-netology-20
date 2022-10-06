@@ -51,7 +51,7 @@ CMD ["bash", "-c", "/var/lib/elasticsearch/bin/elasticsearch"]
 ```
 
 ###
-Скачать с офсайта так и не смог, даже через VPN 403. Поэтому - сторонний источник
+**Скачать с офсайта так и не смог, даже через VPN 403. Поэтому - сторонний источник**
 ###
 
 [Ссылка на образ докер](https://hub.docker.com/layers/vyacheslavbreus/devops-netology/elastic/images/sha256-f5e2fe457463a11e68335d56426f1ad17b3f97100ceb7866b77b26a38c180357?context=repo)

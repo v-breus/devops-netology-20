@@ -164,27 +164,6 @@
       <option name="presentableId" value="Default" />
       <updated>1654411498490</updated>
     </task>
-    <task id="LOCAL-00011" summary="16">
-      <created>1659099100941</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1659099100941</updated>
-    </task>
-    <task id="LOCAL-00012" summary="16">
-      <created>1659099197748</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1659099197748</updated>
-    </task>
-    <task id="LOCAL-00013" summary="16">
-      <created>1659099318743</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1659099318743</updated>
-    </task>
     <task id="LOCAL-00014" summary="17">
       <created>1659099949453</created>
       <option name="number" value="00014" />
@@ -507,7 +486,28 @@
       <option name="project" value="LOCAL" />
       <updated>1665054573310</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="6.5. Elasticsearch">
+      <created>1665077074208</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1665077074208</updated>
+    </task>
+    <task id="LOCAL-00061" summary="6.5. Elasticsearch">
+      <created>1665077232716</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1665077232716</updated>
+    </task>
+    <task id="LOCAL-00062" summary="6.5. Elasticsearch">
+      <created>1665077373268</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1665077373268</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -535,7 +535,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="task 2" />
     <MESSAGE value="16" />
     <MESSAGE value="17" />
     <MESSAGE value="18" />
@@ -560,6 +559,7 @@
     <MESSAGE value="SQL - Доработка 1" />
     <MESSAGE value="PostgreSQL" />
     <MESSAGE value="elastic.yml" />
-    <option name="LAST_COMMIT_MESSAGE" value="elastic.yml" />
+    <MESSAGE value="6.5. Elasticsearch" />
+    <option name="LAST_COMMIT_MESSAGE" value="6.5. Elasticsearch" />
   </component>
 </project>
