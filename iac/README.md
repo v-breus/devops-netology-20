@@ -68,12 +68,14 @@
 
 **Ответ:**
 
-`mkdir -p /usr/local/tf/12 && cd /usr/local/tf/12
+```
+mkdir -p /usr/local/tf/12 && cd /usr/local/tf/12
 wget https://releases.hashicorp.com/terraform/0.12.20/terraform_0.12.20_linux_amd64.zip
 unzip terraform_0.12.20_linux_amd64.zip
 rm terraform_0.12.20_linux_amd64.zip
 ln -s /usr/local/tf/12/terraform /usr/bin/terraform12
 chmod +x /usr/bin/terraform*
-`
+```
+
 <img src="img\pic2.png">
 
