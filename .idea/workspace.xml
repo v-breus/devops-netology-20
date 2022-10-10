@@ -164,20 +164,6 @@
       <option name="presentableId" value="Default" />
       <updated>1654411498490</updated>
     </task>
-    <task id="LOCAL-00016" summary="17">
-      <created>1659100393712</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1659100393712</updated>
-    </task>
-    <task id="LOCAL-00017" summary="17">
-      <created>1659100483128</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1659100483128</updated>
-    </task>
     <task id="LOCAL-00018" summary="18">
       <created>1659100947809</created>
       <option name="number" value="00018" />
@@ -507,7 +493,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665398115991</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="7.1. Инфраструктура как код">
+      <created>1665401435363</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1665401435363</updated>
+    </task>
+    <task id="LOCAL-00066" summary="7.1. Инфраструктура как код - formatting">
+      <created>1665401619123</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1665401619123</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -535,8 +535,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="17" />
-    <MESSAGE value="18" />
     <MESSAGE value="task 3" />
     <MESSAGE value="task 3 done" />
     <MESSAGE value="step2" />
@@ -560,6 +558,8 @@
     <MESSAGE value="elastic.yml" />
     <MESSAGE value="6.5. Elasticsearch" />
     <MESSAGE value="6.6 db-troubleshooting" />
-    <option name="LAST_COMMIT_MESSAGE" value="6.6 db-troubleshooting" />
+    <MESSAGE value="7.1. Инфраструктура как код" />
+    <MESSAGE value="7.1. Инфраструктура как код - formatting" />
+    <option name="LAST_COMMIT_MESSAGE" value="7.1. Инфраструктура как код - formatting" />
   </component>
 </project>
