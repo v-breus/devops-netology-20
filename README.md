@@ -28,3 +28,4 @@ ___________________________________________________________________
 
 [6.5. Elasticsearch](https://github.com/v-breus/devops-netology-20/tree/main/elastcisearch)
 
+[6.6. DB troubleshooting](https://github.com/v-breus/devops-netology-20/tree/main/db-troubleshooting)

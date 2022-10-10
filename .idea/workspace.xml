@@ -79,7 +79,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TF_FMT": "false",
-    "last_opened_file_path": "D:/VMs/_vagrant/devops-ubuntu/devops-netology-20/elastcisearch",
+    "last_opened_file_path": "D:/VMs/_vagrant/devops-ubuntu/devops-netology-20/db-troobleshooting",
     "settings.editor.selected.configurable": "terminal"
   },
   "keyToStringList": {
@@ -92,11 +92,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\VMs\_vagrant\devops-ubuntu\devops-netology-20\db-troobleshooting" />
       <recent name="D:\VMs\_vagrant\devops-ubuntu\devops-netology-20\elastcisearch" />
       <recent name="D:\VMs\_vagrant\devops-ubuntu\devops-netology-20\PostgreSQL" />
       <recent name="D:\VMs\_vagrant\devops-ubuntu\devops-netology-20\MySQL" />
       <recent name="D:\VMs\_vagrant\devops-ubuntu\devops-netology-20\SQL" />
-      <recent name="D:\VMs\_vagrant\devops-ubuntu\devops-netology-20\Типы_и_структура_СУБД" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\VMs\_vagrant\devops-ubuntu\devops-netology-20\Жизненный_цикл_Docker_контейнера\img" />
@@ -163,13 +163,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654411498490</updated>
-    </task>
-    <task id="LOCAL-00014" summary="17">
-      <created>1659099949453</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1659099949453</updated>
     </task>
     <task id="LOCAL-00015" summary="17">
       <created>1659100106535</created>
@@ -507,7 +500,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665077373268</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="6.5. Elasticsearch">
+      <created>1665077464975</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1665077464975</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
