@@ -164,13 +164,6 @@
       <option name="presentableId" value="Default" />
       <updated>1654411498490</updated>
     </task>
-    <task id="LOCAL-00018" summary="18">
-      <created>1659100947809</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1659100947809</updated>
-    </task>
     <task id="LOCAL-00019" summary="18">
       <created>1659101239017</created>
       <option name="number" value="00019" />
@@ -507,7 +500,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665401619123</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="Доработка">
+      <created>1665408551636</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1665408551636</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -535,7 +535,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="task 3" />
     <MESSAGE value="task 3 done" />
     <MESSAGE value="step2" />
     <MESSAGE value="step3" />
@@ -560,6 +559,7 @@
     <MESSAGE value="6.6 db-troubleshooting" />
     <MESSAGE value="7.1. Инфраструктура как код" />
     <MESSAGE value="7.1. Инфраструктура как код - formatting" />
-    <option name="LAST_COMMIT_MESSAGE" value="7.1. Инфраструктура как код - formatting" />
+    <MESSAGE value="Доработка" />
+    <option name="LAST_COMMIT_MESSAGE" value="Доработка" />
   </component>
 </project>
