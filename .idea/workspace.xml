@@ -79,7 +79,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TF_FMT": "false",
-    "last_opened_file_path": "D:/VMs/_vagrant/devops-ubuntu/devops-netology-20/db-troobleshooting",
+    "last_opened_file_path": "D:/VMs/_vagrant/devops-ubuntu/devops-netology-20/iac",
     "settings.editor.selected.configurable": "terminal"
   },
   "keyToStringList": {
@@ -92,11 +92,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\VMs\_vagrant\devops-ubuntu\devops-netology-20\iac" />
       <recent name="D:\VMs\_vagrant\devops-ubuntu\devops-netology-20\db-troobleshooting" />
       <recent name="D:\VMs\_vagrant\devops-ubuntu\devops-netology-20\elastcisearch" />
       <recent name="D:\VMs\_vagrant\devops-ubuntu\devops-netology-20\PostgreSQL" />
       <recent name="D:\VMs\_vagrant\devops-ubuntu\devops-netology-20\MySQL" />
-      <recent name="D:\VMs\_vagrant\devops-ubuntu\devops-netology-20\SQL" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\VMs\_vagrant\devops-ubuntu\devops-netology-20\Жизненный_цикл_Docker_контейнера\img" />
@@ -163,13 +163,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654411498490</updated>
-    </task>
-    <task id="LOCAL-00015" summary="17">
-      <created>1659100106535</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1659100106535</updated>
     </task>
     <task id="LOCAL-00016" summary="17">
       <created>1659100393712</created>
@@ -507,7 +500,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665077464975</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="6.6 db-troubleshooting">
+      <created>1665398115991</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1665398115991</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -535,7 +535,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="16" />
     <MESSAGE value="17" />
     <MESSAGE value="18" />
     <MESSAGE value="task 3" />
@@ -560,6 +559,7 @@
     <MESSAGE value="PostgreSQL" />
     <MESSAGE value="elastic.yml" />
     <MESSAGE value="6.5. Elasticsearch" />
-    <option name="LAST_COMMIT_MESSAGE" value="6.5. Elasticsearch" />
+    <MESSAGE value="6.6 db-troubleshooting" />
+    <option name="LAST_COMMIT_MESSAGE" value="6.6 db-troubleshooting" />
   </component>
 </project>
