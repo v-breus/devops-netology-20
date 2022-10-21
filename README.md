@@ -31,3 +31,5 @@ ___________________________________________________________________
 [6.6. DB troubleshooting](https://github.com/v-breus/devops-netology-20/tree/main/db-troubleshooting)
 
 [7.1. Инфраструктура как код](https://github.com/v-breus/devops-netology-20/tree/main/iac)
+
+[7.3. Основы терраформ](https://github.com/v-breus/devops-netology-20/tree/main/Основы_Terraform)

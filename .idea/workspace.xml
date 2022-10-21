@@ -79,7 +79,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TF_FMT": "false",
-    "last_opened_file_path": "D:/VMs/_vagrant/devops-ubuntu/devops-netology-20/Облачные_провайдеры_и_синтаксис_Terraform",
+    "last_opened_file_path": "D:/VMs/_vagrant/devops-ubuntu/devops-netology-20/Основы Terraform",
     "settings.editor.selected.configurable": "terminal"
   },
   "keyToStringList": {
@@ -92,11 +92,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\VMs\_vagrant\devops-ubuntu\devops-netology-20\Основы Terraform" />
       <recent name="D:\VMs\_vagrant\devops-ubuntu\devops-netology-20\Облачные_провайдеры_и_синтаксис_Terraform" />
       <recent name="D:\VMs\_vagrant\devops-ubuntu\devops-netology-20\iac" />
       <recent name="D:\VMs\_vagrant\devops-ubuntu\devops-netology-20\db-troobleshooting" />
       <recent name="D:\VMs\_vagrant\devops-ubuntu\devops-netology-20\elastcisearch" />
-      <recent name="D:\VMs\_vagrant\devops-ubuntu\devops-netology-20\PostgreSQL" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\VMs\_vagrant\devops-ubuntu\devops-netology-20\Облачные_провайдеры_и_синтаксис_Terraform\src\terraform" />
