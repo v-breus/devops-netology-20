@@ -106,7 +106,7 @@ resource "yandex_compute_instance" "vm-count" {
 
 ```
 
-Вывод `terraform plan` - count.log
+Вывод `terraform plan` - [count.log](https://github.com/v-breus/devops-netology-20/blob/d7ba4950126244810438cd51a8c89d9b67e0ea04/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B_Terraform/src/count.log)
 
 <img src="img\pic4.png">
 
@@ -183,7 +183,7 @@ resource "yandex_compute_instance" "vm-foreach" {
 
 ```
 
-Вывод `terraform plan` - foreach.log
+Вывод `terraform plan` - [foreach.log](https://github.com/v-breus/devops-netology-20/blob/d7ba4950126244810438cd51a8c89d9b67e0ea04/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B_Terraform/src/foreach.log)
 
 <img src="img\pic6.png">
 
@@ -203,3 +203,4 @@ resource "yandex_compute_instance" "vm-foreach" {
 <img src="img\pic9.png">
 <img src="img\pic10.png">
 
+[prod_plan.log](https://github.com/v-breus/devops-netology-20/blob/d7ba4950126244810438cd51a8c89d9b67e0ea04/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B_Terraform/src/prod_plan.log)

@@ -165,13 +165,6 @@
       <option name="presentableId" value="Default" />
       <updated>1654411498490</updated>
     </task>
-    <task id="LOCAL-00023" summary="18">
-      <created>1659102805222</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1659102805222</updated>
-    </task>
     <task id="LOCAL-00024" summary="task 3">
       <created>1659103403521</created>
       <option name="number" value="00024" />
@@ -508,7 +501,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665945958591</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="7.3. Основы и принцип работы Терраформ">
+      <created>1666391611866</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1666391611866</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -536,7 +536,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="step2" />
     <MESSAGE value="step3" />
     <MESSAGE value="Python-like format" />
     <MESSAGE value="Задание 5.1" />
@@ -561,6 +560,7 @@
     <MESSAGE value="7.1. Инфраструктура как код - formatting" />
     <MESSAGE value="Доработка" />
     <MESSAGE value="Files upload" />
-    <option name="LAST_COMMIT_MESSAGE" value="Files upload" />
+    <MESSAGE value="7.3. Основы и принцип работы Терраформ" />
+    <option name="LAST_COMMIT_MESSAGE" value="7.3. Основы и принцип работы Терраформ" />
   </component>
 </project>
