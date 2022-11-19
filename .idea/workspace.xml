@@ -79,7 +79,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TF_FMT": "false",
-    "last_opened_file_path": "D:/VMs/_vagrant/devops-ubuntu/devops-netology-20/Основы Terraform",
+    "last_opened_file_path": "D:/VMs/_vagrant/devops-ubuntu/devops-netology-20/Введение_в_Ansible",
     "settings.editor.selected.configurable": "terminal"
   },
   "keyToStringList": {
@@ -92,11 +92,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\VMs\_vagrant\devops-ubuntu\devops-netology-20\Введение_в_Ansible" />
       <recent name="D:\VMs\_vagrant\devops-ubuntu\devops-netology-20\Основы Terraform" />
       <recent name="D:\VMs\_vagrant\devops-ubuntu\devops-netology-20\Облачные_провайдеры_и_синтаксис_Terraform" />
       <recent name="D:\VMs\_vagrant\devops-ubuntu\devops-netology-20\iac" />
       <recent name="D:\VMs\_vagrant\devops-ubuntu\devops-netology-20\db-troobleshooting" />
-      <recent name="D:\VMs\_vagrant\devops-ubuntu\devops-netology-20\elastcisearch" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\VMs\_vagrant\devops-ubuntu\devops-netology-20\Облачные_провайдеры_и_синтаксис_Terraform\src\terraform" />
@@ -164,13 +164,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654411498490</updated>
-    </task>
-    <task id="LOCAL-00024" summary="task 3">
-      <created>1659103403521</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1659103403521</updated>
     </task>
     <task id="LOCAL-00025" summary="task 3 done">
       <created>1659119941837</created>
@@ -508,7 +501,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666391611866</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="7.3. Основы и принцип работы Терраформ&#10;&#10;Links update">
+      <created>1666392263242</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1666392263243</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -536,7 +536,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="step3" />
     <MESSAGE value="Python-like format" />
     <MESSAGE value="Задание 5.1" />
     <MESSAGE value="format" />
@@ -561,6 +560,7 @@
     <MESSAGE value="Доработка" />
     <MESSAGE value="Files upload" />
     <MESSAGE value="7.3. Основы и принцип работы Терраформ" />
-    <option name="LAST_COMMIT_MESSAGE" value="7.3. Основы и принцип работы Терраформ" />
+    <MESSAGE value="7.3. Основы и принцип работы Терраформ&#10;&#10;Links update" />
+    <option name="LAST_COMMIT_MESSAGE" value="7.3. Основы и принцип работы Терраформ&#10;&#10;Links update" />
   </component>
 </project>
