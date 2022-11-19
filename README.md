@@ -24,6 +24,9 @@ ___________________________________________________________________
 
 [6.2 SQL](https://github.com/v-breus/devops-netology-20/tree/main/SQL)
 
+[8.1 Введение в Ansible](https://github.com/v-breus/devops-netology-20/tree/main/Введение_в_Ansible)
+
+
 [6.3 PostgreSQL](https://github.com/v-breus/devops-netology-20/tree/main/PostgreSQL)
 
 [6.5. Elasticsearch](https://github.com/v-breus/devops-netology-20/tree/main/elastcisearch)
