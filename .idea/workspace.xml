@@ -105,6 +105,7 @@
       <recent name="D:\VMs\_vagrant\devops-ubuntu\devops-netology-20\db-troobleshooting" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\VMs\_vagrant\devops-ubuntu\devops-netology-20\Работа_с_Playbook\playbook\group_vars" />
       <recent name="D:\VMs\_vagrant\devops-ubuntu\devops-netology-20\Введение_в_Ansible" />
       <recent name="D:\VMs\_vagrant\devops-ubuntu\devops-netology-20\Облачные_провайдеры_и_синтаксис_Terraform\src\terraform" />
       <recent name="D:\VMs\_vagrant\devops-ubuntu\devops-netology-20\Жизненный_цикл_Docker_контейнера\img" />
@@ -171,13 +172,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654411498490</updated>
-    </task>
-    <task id="LOCAL-00031" summary="format">
-      <created>1660902971104</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1660902971104</updated>
     </task>
     <task id="LOCAL-00032" summary="5.2 Применение принципов IaaC в работе с виртуальными машинами">
       <created>1661613535764</created>
@@ -515,7 +509,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669316195544</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="8.2 Работа с Playbook - 1st commit">
+      <created>1669893825677</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1669893825677</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -543,7 +544,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="format" />
     <MESSAGE value="5.2 Применение принципов IaaC в работе с виртуальными машинами" />
     <MESSAGE value="5.3 Введение. Экосистема. Архитектура. Жизненный цикл Docker контейнера" />
     <MESSAGE value="Readme edit" />
@@ -568,6 +568,7 @@
     <MESSAGE value="7.3. Основы и принцип работы Терраформ&#10;&#10;Links update" />
     <MESSAGE value="8.1 Введение в Ansible" />
     <MESSAGE value="8.1 Введение в Ansible - playbook result added" />
-    <option name="LAST_COMMIT_MESSAGE" value="8.1 Введение в Ansible - playbook result added" />
+    <MESSAGE value="8.2 Работа с Playbook - 1st commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="8.2 Работа с Playbook - 1st commit" />
   </component>
 </project>
