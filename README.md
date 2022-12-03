@@ -26,7 +26,6 @@ ___________________________________________________________________
 
 [8.1 Введение в Ansible](https://github.com/v-breus/devops-netology-20/tree/main/Введение_в_Ansible)
 
-
 [6.3 PostgreSQL](https://github.com/v-breus/devops-netology-20/tree/main/PostgreSQL)
 
 [6.5. Elasticsearch](https://github.com/v-breus/devops-netology-20/tree/main/elastcisearch)
@@ -36,3 +35,5 @@ ___________________________________________________________________
 [7.1. Инфраструктура как код](https://github.com/v-breus/devops-netology-20/tree/main/iac)
 
 [7.3. Основы терраформ](https://github.com/v-breus/devops-netology-20/tree/main/Основы_Terraform)
+
+[8.2. Работа с playbook](https://github.com/v-breus/devops-netology-20/tree/main/Работа_с_Playbook)
