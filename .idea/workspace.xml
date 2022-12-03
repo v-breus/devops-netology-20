@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0adf1345-e1f5-48d2-bdfe-7c3a7e3869e6" name="Changes" comment="Prepare to delete and move">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0adf1345-e1f5-48d2-bdfe-7c3a7e3869e6" name="Changes" comment="Prepare to delete and move" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,6 +103,7 @@
       <recent name="D:\VMs\_vagrant\devops-ubuntu\devops-netology-20\db-troobleshooting" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\VMs\_vagrant\devops-ubuntu\devops-netology-20\Работа_с_Playbook\playbook" />
       <recent name="D:\VMs\_vagrant\devops-ubuntu\devops-netology-20\Работа_с_Playbook\playbook\group_vars" />
       <recent name="D:\VMs\_vagrant\devops-ubuntu\devops-netology-20\Введение_в_Ansible" />
       <recent name="D:\VMs\_vagrant\devops-ubuntu\devops-netology-20\Облачные_провайдеры_и_синтаксис_Terraform\src\terraform" />
