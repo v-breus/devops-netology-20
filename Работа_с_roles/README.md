@@ -37,3 +37,7 @@ src: git+https://github.com/AlexeySetevoi/ansible-clickhouse.git
 
 <p><img src="img\pic2.png">
 
+3. Создать новый каталог с ролью при помощи `ansible-galaxy role init vector-role`.
+
+<p><img src="img\pic3.png">
+
