@@ -41,3 +41,38 @@ src: git+https://github.com/AlexeySetevoi/ansible-clickhouse.git
 
 <p><img src="img\pic3.png">
 
+4. На основе tasks из старого playbook заполните новую role. Разнесите переменные между vars и default.
+
+Добавил в роль:
+ 
+```
+---
+- name: Get vector distrib
+  ansible.builtin.get_url:
+    url: "https://packages.timber.io/vector/{{ vector_version }}/{{ item }}-{{ vector_version }}-1.x86_64.rpm"
+    dest: "./{{ item }}-{{ vector_version }}.rpm"
+  loop: "{{ vector_packages }}"
+
+- name: Install vector packages
+  become: true
+  ansible.builtin.yum:
+    name: "{{ item }}-{{ vector_version }}.rpm"
+  loop: "{{ vector_packages }}"
+  notify: Start vector service
+```
+
+vars/main.yml:
+
+```
+---
+vector_packages:
+  - vector 
+```
+
+defaults/main.yml
+
+```
+---
+vector_version: "0.9.2" 
+```
+
