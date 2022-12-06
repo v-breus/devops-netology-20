@@ -1,0 +1,12 @@
+---
+- name: Check git present
+  become: true
+  ansible.builtin.package:
+    name: git
+    state: present
+
+- name: Clone lighthouse
+  become: true
+  ansible.builtin.git:
+    repo: "{{ lighthouse_git }}"
+    dest: "{{ lighthouse_dest }}"
