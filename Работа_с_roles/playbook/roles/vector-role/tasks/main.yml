@@ -1,0 +1,13 @@
+---
+- name: Get vector distrib
+  ansible.builtin.get_url:
+    url: "https://packages.timber.io/vector/{{ vector_version }}/vector-x86_64.rpm"
+    dest: "./{{ item }}-{{ vector_version }}.rpm"
+  loop: "{{ vector_packages }}"
+
+- name: Install vector packages
+  become: true
+  ansible.builtin.yum:
+    name: "vector-{{ vector_version }}.rpm"
+  loop: "{{ vector_packages }}"
+  notify: Start vector service

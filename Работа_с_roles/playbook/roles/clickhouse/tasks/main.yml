@@ -1,0 +1,25 @@
+---
+    - name: Install clickhouse-common
+      tags: cinst
+      ansible.builtin.yum:
+          name: https://packages.clickhouse.com/rpm/stable/clickhouse-common-static-{{ clickhouse_version }}.x86_64.rpm
+          state: present
+    - name: Install clickhouse-server
+      ansible.builtin.yum:
+          name: https://packages.clickhouse.com/rpm/stable/clickhouse-server-{{ clickhouse_version }}.x86_64.rpm
+          state: present
+    - name: Install clickhouse-client
+      ansible.builtin.yum:
+          name: https://packages.clickhouse.com/rpm/stable/clickhouse-client-{{ clickhouse_version }}.x86_64.rpm
+          state: present
+#      notify: Start clickhouse service
+    - name: Reload clickhouse service
+      tags: cr
+      systemd:
+        name: clickhouse-server
+        state: restarted
+    - name: Create database
+      ansible.builtin.command: "clickhouse-client -q 'create database logs;'"
+      register: create_db
+      failed_when: create_db.rc != 0 and create_db.rc !=82
+      changed_when: create_db.rc == 0

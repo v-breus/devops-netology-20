@@ -1,19 +1,20 @@
 ---
 - name: Install Clickhouse
   hosts: clickhouse
-  remote_user: admin
+  remote_user: root
   roles:
     - clickhouse
 
 - name: Install Vector
   hosts: vector
-  remote_user: admin
+  remote_user: root
   roles:
     - vector-role
 
 - name: Install lighthouse
+  tags: lighthouse
   hosts: lighthouse
-  remote_user: admin
+  remote_user: root
   handlers:
     - name: Start nginx service
       become: true
@@ -42,7 +43,7 @@
       become: true
       ansible.builtin.template:
         src: nginx.conf.j2
-        dest: /etc/nginx/conf.d/default
+        dest: /etc/nginx/conf.d/default.conf
         mode: "0644"
       notify: Start nginx service
   roles:
