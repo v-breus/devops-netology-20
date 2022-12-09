@@ -77,32 +77,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TF_FMT&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;R:/test&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TF_FMT": "false",
+    "last_opened_file_path": "D:/VMs/_vagrant/devops-ubuntu/devops-netology-20/Использование_Yandex_Cloud/templates",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;,
-      &quot;module&quot;,
-      &quot;repository&quot;
+  "keyToStringList": {
+    "GitStage.ChangesTree.GroupingKeys": [
+      "directory",
+      "module",
+      "repository"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\VMs\_vagrant\devops-ubuntu\devops-netology-20\Использование_Yandex_Cloud\templates" />
       <recent name="D:\VMs\_vagrant\devops-ubuntu\devops-netology-20\Введение_в_Ansible" />
       <recent name="D:\VMs\_vagrant\devops-ubuntu\devops-netology-20\Основы Terraform" />
       <recent name="D:\VMs\_vagrant\devops-ubuntu\devops-netology-20\Облачные_провайдеры_и_синтаксис_Terraform" />
       <recent name="D:\VMs\_vagrant\devops-ubuntu\devops-netology-20\iac" />
-      <recent name="D:\VMs\_vagrant\devops-ubuntu\devops-netology-20\db-troobleshooting" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\VMs\_vagrant\devops-ubuntu\devops-netology-20\Введение_в_Ansible" />
@@ -171,13 +171,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654411498490</updated>
-    </task>
-    <task id="LOCAL-00029" summary="Python-like format">
-      <created>1659540498259</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1659540498259</updated>
     </task>
     <task id="LOCAL-00030" summary="Задание 5.1">
       <created>1660902761762</created>
@@ -515,8 +508,18 @@
       <option name="project" value="LOCAL" />
       <updated>1669196201280</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="Работа с roles - final commit">
+      <created>1670335781935</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1670335781936</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.j2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -546,7 +549,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/Работа_с_roles/lighthouse" />
     </ignored-roots>
-    <MESSAGE value="Задание 5.1" />
     <MESSAGE value="format" />
     <MESSAGE value="5.2 Применение принципов IaaC в работе с виртуальными машинами" />
     <MESSAGE value="5.3 Введение. Экосистема. Архитектура. Жизненный цикл Docker контейнера" />
@@ -571,6 +573,7 @@
     <MESSAGE value="7.3. Основы и принцип работы Терраформ" />
     <MESSAGE value="7.3. Основы и принцип работы Терраформ&#10;&#10;Links update" />
     <MESSAGE value="8.1 Введение в Ansible" />
-    <option name="LAST_COMMIT_MESSAGE" value="8.1 Введение в Ansible" />
+    <MESSAGE value="Работа с roles - final commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Работа с roles - final commit" />
   </component>
 </project>
