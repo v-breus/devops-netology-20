@@ -115,8 +115,8 @@
         dest: /etc/nginx/conf.d/default.conf
         mode: "0644"
       notify: Start nginx service
-     - name: Check git present
-       become: true
-       ansible.builtin.package:
-       name: git
-       state: present
+    - name: Check git present
+      become: true
+      ansible.builtin.package:
+        name: git
+        state: present
