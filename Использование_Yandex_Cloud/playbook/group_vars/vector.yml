@@ -1,4 +1,4 @@
-vector_url: "https://packages.timber.io/vector/{{ vector_version }}/vector-{{ vector_version }}-1.x86_64.rpm"
+vector_url: "https://packages.timber.io/vector/{{ vector_version }}/vector-x86_64.rpm"
 vector_version: 0.9.2
 vector_config_dir: "/etc/vector"
 vector_config:

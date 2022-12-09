@@ -85,6 +85,11 @@
         name: nginx
         state: restarted
   tasks:
+    - name: Check git present
+      become: true
+      ansible.builtin.package:
+        name: git
+        state: present
     - name: Clone lighthouse
       become: true
       ansible.builtin.git:
@@ -115,8 +120,3 @@
         dest: /etc/nginx/conf.d/default.conf
         mode: "0644"
       notify: Start nginx service
-    - name: Check git present
-      become: true
-      ansible.builtin.package:
-        name: git
-        state: present
