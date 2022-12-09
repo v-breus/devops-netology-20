@@ -172,13 +172,6 @@
       <option name="presentableId" value="Default" />
       <updated>1654411498490</updated>
     </task>
-    <task id="LOCAL-00032" summary="5.2 Применение принципов IaaC в работе с виртуальными машинами">
-      <created>1661613535764</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1661613535764</updated>
-    </task>
     <task id="LOCAL-00033" summary="5.3 Введение. Экосистема. Архитектура. Жизненный цикл Docker контейнера">
       <created>1661976035020</created>
       <option name="number" value="00033" />
@@ -515,7 +508,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670582929166</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="Использование YC - Vector URL fix">
+      <created>1670585095997</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1670585095997</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -549,7 +549,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/Работа_с_roles/lighthouse" />
     </ignored-roots>
-    <MESSAGE value="5.3 Введение. Экосистема. Архитектура. Жизненный цикл Docker контейнера" />
     <MESSAGE value="Readme edit" />
     <MESSAGE value="Add src" />
     <MESSAGE value="Homework 5.4" />
@@ -574,6 +573,7 @@
     <MESSAGE value="Работа с roles - final commit" />
     <MESSAGE value="Использование YC - 1st commit" />
     <MESSAGE value="Использование YC - syntax error fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Использование YC - syntax error fix" />
+    <MESSAGE value="Использование YC - Vector URL fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Использование YC - Vector URL fix" />
   </component>
 </project>
