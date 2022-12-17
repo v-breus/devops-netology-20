@@ -29,6 +29,10 @@
 
 ---
 
+[bug.xml](https://github.com/v-breus/devops-netology-20/blob/main/Жизненный_цикл_ПО/bug.xml)
+
+[normal.xml](https://github.com/v-breus/devops-netology-20/blob/main/Жизненный_цикл_ПО/normal.xml)
+
 
 
 Провел по workflow задачу типа bug:

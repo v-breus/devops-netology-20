@@ -173,13 +173,6 @@
       <option name="presentableId" value="Default" />
       <updated>1654411498490</updated>
     </task>
-    <task id="LOCAL-00035" summary="Add src">
-      <created>1661976455899</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1661976455899</updated>
-    </task>
     <task id="LOCAL-00036" summary="Homework 5.4">
       <created>1662291834733</created>
       <option name="number" value="00036" />
@@ -516,7 +509,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670586563433</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="Жизненный цикл ПО - 1st commit">
+      <created>1671283956321</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1671283956321</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -550,7 +550,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/Работа_с_roles/lighthouse" />
     </ignored-roots>
-    <MESSAGE value="Add src" />
     <MESSAGE value="Homework 5.4" />
     <MESSAGE value="Homework 5.5" />
     <MESSAGE value="Homework 6.1" />
@@ -575,6 +574,7 @@
     <MESSAGE value="Использование YC - syntax error fix" />
     <MESSAGE value="Использование YC - Vector URL fix" />
     <MESSAGE value="Использование YC - final commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Использование YC - final commit" />
+    <MESSAGE value="Жизненный цикл ПО - 1st commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Жизненный цикл ПО - 1st commit" />
   </component>
 </project>
