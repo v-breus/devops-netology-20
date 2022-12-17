@@ -37,3 +37,5 @@ ___________________________________________________________________
 [7.3. Основы терраформ](https://github.com/v-breus/devops-netology-20/tree/main/Основы_Terraform)
 
 [8.2. Работа с playbook](https://github.com/v-breus/devops-netology-20/tree/main/Работа_с_Playbook)
+
+[Жизненный цикл ПО](https://github.com/v-breus/devops-netology-20/tree/main/Жизненный_цикл_ПО)
