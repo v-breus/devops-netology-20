@@ -14,6 +14,9 @@
 8. Если все шаги прошли успешно - выйти из виртуального окружения `deactivate`
 9. Ваше окружение настроено, для того чтобы запустить его, нужно находиться в директории `ansible` и выполнить конструкцию `. venv/bin/activate && . hacking/env-setup`
 
+<p><img src="img\pic1.png">
+
+
 ## Основная часть
 
 Наша цель - написать собственный module, который мы можем использовать в своей role, через playbook. Всё это должно быть собрано в виде collection и отправлено в наш репозиторий.
@@ -159,8 +162,31 @@ if __name__ == '__main__':
 Или возьмите данное наполнение из [статьи](https://docs.ansible.com/ansible/latest/dev_guide/developing_modules_general.html#creating-a-module).
 
 3. Заполните файл в соответствии с требованиями ansible так, чтобы он выполнял основную задачу: module должен создавать текстовый файл на удалённом хосте по пути, определённом в параметре `path`, с содержимым, определённым в параметре `content`.
+
+[module](https://github.com/v-breus/ansible-modules/blob/main/my_own_module.py)
+
 4. Проверьте module на исполняемость локально.
+
+<p><img src="img\pic2.png">
+
 5. Напишите single task playbook и используйте module в нём.
+
+Playbook
+```
+---
+- name: Check module
+  hosts: localhost
+  tasks:
+    - name: Test
+      my_own_module:
+        path: "/tmp/test.txt"
+        content: "My homework"
+```
+
+Запуск
+
+
+
 6. Проверьте через playbook на идемпотентность.
 7. Выйдите из виртуального окружения.
 8. Инициализируйте новую collection: `ansible-galaxy collection init my_own_namespace.yandex_cloud_elk`
