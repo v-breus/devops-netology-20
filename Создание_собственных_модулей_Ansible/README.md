@@ -2,9 +2,6 @@
 
 ## Подготовка к выполнению
 1. Создайте пустой публичных репозиторий в любом своём проекте: `my_own_collection`
-
-
-
 2. Скачайте репозиторий ansible: `git clone https://github.com/ansible/ansible.git` по любому удобному вам пути
 3. Зайдите в директорию ansible: `cd ansible`
 4. Создайте виртуальное окружение: `python3 -m venv venv`
@@ -22,8 +19,12 @@
 Наша цель - написать собственный module, который мы можем использовать в своей role, через playbook. Всё это должно быть собрано в виде collection и отправлено в наш репозиторий.
 
 1. В виртуальном окружении создать новый `my_own_module.py` файл
-2. Наполнить его содержимым:
-```python
+2. Наполнить его:
+
+<details>
+<summary>Содержимое</summary>
+
+```
 #!/usr/bin/python
 
 # Copyright: (c) 2018, Terry Jones <terry.jones@example.org>
@@ -95,14 +96,22 @@ message:
     sample: 'goodbye'
 '''
 
+from os import stat
 from ansible.module_utils.basic import AnsibleModule
 
+def file_exist(path):
+    '''Check that file already exist'''
+    try:
+        stat(path)
+        return False
+    except Exception:
+        return True
 
 def run_module():
     # define available arguments/parameters a user can pass to the module
     module_args = dict(
-        name=dict(type='str', required=True),
-        new=dict(type='bool', required=False, default=False)
+        path=dict(type='str', required=True),
+        content=dict(type='str', required=False, default='absolute content')
     )
 
     # seed the result dict in the object
@@ -129,23 +138,20 @@ def run_module():
     # want to make any changes to the environment, just return the current
     # state with no modifications
     if module.check_mode:
+        result['changed'] = file_exist(module.params['path'])
         module.exit_json(**result)
 
     # manipulate or modify the state as needed (this is going to be the
     # part where your module will do what it needs to do)
-    result['original_message'] = module.params['name']
-    result['message'] = 'goodbye'
-
-    # use whatever logic you need to determine whether or not this module
-    # made any modifications to your target
-    if module.params['new']:
-        result['changed'] = True
-
-    # during the execution of the module, if there is an exception or a
-    # conditional state that effectively causes a failure, run
-    # AnsibleModule.fail_json() to pass in the message and the result
-    if module.params['name'] == 'fail me':
-        module.fail_json(msg='You requested this to fail', **result)
+    if file_exist(module.params['path']):
+      with open(module.params['path'], 'w') as new_file:
+          new_file.write(module.params["content"])
+      result['changed'] = True
+      result['original_message'] = 'File {path} succesfully created'.format(path = module.params['path'])
+      result['message'] = 'file created'
+    else:
+      result['original_message'] = 'File {path} already exist'.format(path = module.params['path'])
+      result['message'] = 'File already exist'  
 
     # in the event of a successful module execution, you will want to
     # simple AnsibleModule.exit_json(), passing the key/value results
@@ -159,7 +165,7 @@ def main():
 if __name__ == '__main__':
     main()
 ```
-Или возьмите данное наполнение из [статьи](https://docs.ansible.com/ansible/latest/dev_guide/developing_modules_general.html#creating-a-module).
+</details>
 
 3. Заполните файл в соответствии с требованиями ansible так, чтобы он выполнял основную задачу: module должен создавать текстовый файл на удалённом хосте по пути, определённом в параметре `path`, с содержимым, определённым в параметре `content`.
 
@@ -228,3 +234,4 @@ Playbook
 
 17. В ответ необходимо прислать ссылку на репозиторий с collection
 
+[ссылка](https://github.com/v-breus/devops-netology-20/tree/main/Создание_собственных_модулей_Ansible/galaxy_collection/collections/ansible_collections/test_namespace/test_collection)

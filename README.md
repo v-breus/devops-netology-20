@@ -39,3 +39,6 @@ ___________________________________________________________________
 [8.2. Работа с playbook](https://github.com/v-breus/devops-netology-20/tree/main/Работа_с_Playbook)
 
 [Жизненный цикл ПО](https://github.com/v-breus/devops-netology-20/tree/main/Жизненный_цикл_ПО)
+
+[Создание собственных модулей Ansible](https://github.com/v-breus/devops-netology-20/tree/main/Создание_собственных_модулей_Ansible)
+

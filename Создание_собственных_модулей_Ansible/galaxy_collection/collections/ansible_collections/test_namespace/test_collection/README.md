@@ -1,3 +1,3 @@
 # Ansible Collection - test_collection
 
-Documentation for the collection.
+This collection contain a role which install the simplest Ansible module
