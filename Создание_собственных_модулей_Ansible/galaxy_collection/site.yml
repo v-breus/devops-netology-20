@@ -1,0 +1,13 @@
+---
+#- name: Check module
+#  hosts: localhost
+#  tasks:
+#    - name: Test
+#      my_own_module:
+#        path: "/tmp/test.txt"
+#        content: "My homework"
+
+- name: Test role for module
+  hosts: all
+  roles:
+    - test_namespace.test_collection.my_own_module
