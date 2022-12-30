@@ -173,13 +173,6 @@
       <option name="presentableId" value="Default" />
       <updated>1654411498490</updated>
     </task>
-    <task id="LOCAL-00042" summary="Homework 5.5">
-      <created>1662877962561</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1662877962561</updated>
-    </task>
     <task id="LOCAL-00043" summary="Homework 6.1">
       <created>1662880864994</created>
       <option name="number" value="00043" />
@@ -516,7 +509,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672425474808</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="Создание собственных модулей Ansible - final commit">
+      <created>1672425673112</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1672425673112</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="UnknownFeatures">

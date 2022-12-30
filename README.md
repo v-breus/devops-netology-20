@@ -42,3 +42,7 @@ ___________________________________________________________________
 
 [Создание собственных модулей Ansible](https://github.com/v-breus/devops-netology-20/tree/main/Создание_собственных_модулей_Ansible)
 
+[Процессы CI/CD](https://github.com/v-breus/devops-netology-20/tree/main/Процессы_CI_CD)
+
+
+
