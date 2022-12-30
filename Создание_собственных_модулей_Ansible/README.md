@@ -232,6 +232,3 @@ Playbook
 
 <p><img src="img\pic11.png">
 
-17. В ответ необходимо прислать ссылку на репозиторий с collection
-
-[ссылка](https://github.com/v-breus/devops-netology-20/tree/main/Создание_собственных_модулей_Ansible/galaxy_collection/collections/ansible_collections/test_namespace/test_collection)
