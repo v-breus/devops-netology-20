@@ -173,13 +173,6 @@
       <option name="presentableId" value="Default" />
       <updated>1654411498490</updated>
     </task>
-    <task id="LOCAL-00044" summary="Homework 6.1">
-      <created>1662880971737</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1662880971737</updated>
-    </task>
     <task id="LOCAL-00045" summary="Homework 6.1">
       <created>1662881124847</created>
       <option name="number" value="00045" />
@@ -516,7 +509,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672468899327</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="Процессы CI/CD - 2nd commit">
+      <created>1672560712320</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1672560712320</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -551,7 +551,6 @@
       <path value="$PROJECT_DIR$/Работа_с_roles/lighthouse" />
       <path value="$PROJECT_DIR$/Работа_с_roles/vector" />
     </ignored-roots>
-    <MESSAGE value="6.3. MYSQL" />
     <MESSAGE value="Доработка 1" />
     <MESSAGE value="SQL - Доработка 1" />
     <MESSAGE value="PostgreSQL" />
@@ -576,6 +575,7 @@
     <MESSAGE value="Создание собственных модулей Ansible - 2nd commit" />
     <MESSAGE value="Создание собственных модулей Ansible - final commit" />
     <MESSAGE value="Процессы CI/CD - 1st commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Процессы CI/CD - 1st commit" />
+    <MESSAGE value="Процессы CI/CD - 2nd commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Процессы CI/CD - 2nd commit" />
   </component>
 </project>

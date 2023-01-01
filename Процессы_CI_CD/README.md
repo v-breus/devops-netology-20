@@ -52,7 +52,7 @@
 3. Проверяем, что все файлы загрузились успешно
 4. В ответе присылаем файл `maven-metadata.xml` для этого артефекта
 
-
+[maven-metadata.xml](https://github.com/v-breus/devops-netology-20/blob/main/Процессы_CI_CD/files/maven-metadata.xml)
 
 ### Знакомство с Maven
 
@@ -77,5 +77,5 @@
 3. Проверяем директорию `~/.m2/repository/`, находим наш артефакт
 4. В ответе присылаем исправленный файл `pom.xml`
 
-
+[pom.xml](https://github.com/v-breus/devops-netology-20/blob/main/Процессы_CI_CD/mvn/pom.xml)
 ---
