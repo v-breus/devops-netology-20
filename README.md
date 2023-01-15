@@ -44,5 +44,6 @@ ___________________________________________________________________
 
 [Процессы CI/CD](https://github.com/v-breus/devops-netology-20/tree/main/Процессы_CI_CD)
 
+[Jenkins](https://github.com/v-breus/devops-netology-20/tree/main/jenkins)
 
 
